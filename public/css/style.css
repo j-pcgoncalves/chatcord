@@ -117,6 +117,22 @@ a {
     color: #fff;
 }
 
+.chat-form-container {
+    padding: 20px 30px;
+    background-color: var(--dark-color-a);
+}
+
+.chat-form-container form {
+    display: flex;
+}
+
+.chat-form-container input[type="text"] {
+    font-size: 16px;
+    padding: 5px;
+    height: 40px;
+    flex: 1;
+}
+
 /* Join Page */
 .join-container {
     max-width: 500px;
@@ -167,4 +183,14 @@ a {
 .join-main .btn {
     margin-top: 20px;
     width: 100%;
+}
+
+@media (max-width: 700px) {
+    .chat-main {
+        display: block;
+    }
+
+    .chat-sidebar {
+        display: none;
+    }
 }
